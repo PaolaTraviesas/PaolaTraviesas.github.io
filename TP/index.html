@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+    <title>Calculadora Fruet Bruno - Traviesas Paola</title>
+</head>
+
+<body>
+    <main class="calc-container">
+
+        <form action="" id="formulario" onsubmit="return false">
+            <div>
+                <h1>Calculadora de costo de Energía Eléctrica</h1>
+            </div>
+            <div class="type_user">
+                <fieldset id="selectedUser">
+                    <legend>Tipo de usuario</legend>
+                    <input type="radio" name="user" id="user" value="1"> Residencial
+                    <br>
+                    <input type="radio" name="user" id="user" value="2"> Industrial
+                </fieldset>
+            </div>
+            <div class="selectedAddress">
+                <fieldset>
+                    <legend>Zona del domicilio</legend>
+                    <select name="selectable" id="zone" required>
+                        <option value="0" id="select" selected>Seleccionar...</option>
+                        <option value="1" id="dC">Distrito Centro</option>
+                        <option value="2" id="dS">Distrito Sur</option>
+                        <option value="3" id="dO">Distrito Oeste</option>
+                        <option value="4" id="dN">Distrito Norte</option>
+                    </select>
+                </fieldset>
+            </div>
+            <fieldset>
+                <legend>Cantidad de kWh del mes</legend>
+                <input type="number" name="kWh" id="kWhValue" class="kWh">
+            </fieldset>
+            <div>
+                <h1 id="resultado"></h1>
+               
+                
+            </div>
+            <div>
+                <button type="submit" id="btn-calculate" onclick="validaciones()">Calcular</button>
+                <button type="button" onclick="limpiarFormulario()" id="limpiar">Limpiar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

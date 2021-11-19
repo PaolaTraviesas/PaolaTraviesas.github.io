@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+
+* {
+
+    font-family: "Poppins", sans-serif;
+    margin: 0%;
+}
+
+.calc-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(213, 241, 246);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 1px #000;
+    text-align: center;
+    margin: 20px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.bbva.com/wp-content/uploads/2021/02/energi%CC%81a_electrica-1920x1180.jpg");
+    height: 100vh;
+    background-position: center;
+}
+
+h1 {
+    color: #18187c;
+    font-size: 150%;
+}
+
+#formulario {
+    color: #18187c;
+    font-size: 120%;
+}
+
+.type_user input {
+    background: rgb(213, 241, 246);
+}
+fieldset {
+    color: #18187c;
+    border-radius: 5px;
+    margin: 0% 5%;
+}
+
+#zone {
+    font-size: 80%;
+    background: rgb(213, 241, 246);
+    border: 1px solid rgba(57, 58, 59, 10);
+    border-radius: 5px;
+}
+
+.kWh {
+    border: 1px solid rgba(57, 58, 59, 10);
+    border-radius: 5px;
+    background: rgb(213, 241, 246);
+    
+}
+
+button {
+    margin: 2%;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 90%;
+    background: rgb(213, 241, 246);
+}
