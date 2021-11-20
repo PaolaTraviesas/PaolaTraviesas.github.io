@@ -38,6 +38,7 @@ h1 {
 
 .type_user input {
     background: rgb(213, 241, 246);
+    cursor: pointer;
 }
 fieldset {
     color: #18187c;
@@ -50,6 +51,7 @@ fieldset {
     background: rgb(213, 241, 246);
     border: 1px solid rgba(57, 58, 59, 10);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .kWh {
@@ -65,4 +67,9 @@ button {
     border-radius: 5px;
     font-size: 90%;
     background: rgb(213, 241, 246);
+}
+
+button:hover {
+    background-color: #f6f6f6;
+    cursor: pointer;
 }
